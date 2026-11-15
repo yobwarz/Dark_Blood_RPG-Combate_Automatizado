@@ -9,5 +9,5 @@ https://raw.githubusercontent.com/yobwarz/Dark_Blood_RPG-Combate_Automatizado/ma
 ```
 ### Observação
 **O uso dessas extensões é opcional.** Você pode jogar com o sistema base e adicionar os módulos conforme as necessidades da sua mesa.
----
+>
 **Sangue Escuro Engine** é um motor de regras, **Sangue Escuro RPG: Guia dos Mortos** se trata da publicação original comercializável e **Dark Blood RPG: \[Franquia\]: Expansão** é a linha de adaptações gratuitas de fãs.
