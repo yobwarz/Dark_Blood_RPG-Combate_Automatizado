@@ -2,7 +2,7 @@
   "id": "sangue-escuro-combate",
   "title": "Sangue Escuro: Combate Automatizado",
   "description": "Resolução assistida de ataques, alvo original, aplicação confirmada por alvo, proteção contra repetição de dano e integração com as expansões Sangue Escuro.",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -28,5 +28,5 @@
   },
   "url": "https://github.com/yobwarz/Dark_Blood_RPG-Combate_Automatizado",
   "manifest": "https://raw.githubusercontent.com/yobwarz/Dark_Blood_RPG-Combate_Automatizado/main/module.json",
-  "download": "https://raw.githubusercontent.com/yobwarz/Dark_Blood_RPG-Combate_Automatizado/v0.4.2/dist/sangue-escuro-combate.zip"
+  "download": "https://raw.githubusercontent.com/yobwarz/Dark_Blood_RPG-Combate_Automatizado/v0.4.3/dist/sangue-escuro-combate.zip"
 }
