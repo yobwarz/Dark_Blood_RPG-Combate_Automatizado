@@ -1,0 +1,10 @@
+import {MODULO} from './constantes.mjs';
+import {registrarBotoesDano} from './dano.mjs';
+import {registrarEfeitos} from './efeitos.mjs';
+import {registrarFluxo} from './fluxo.mjs';
+import {registrarSolicitacoes} from './solicitacoes.mjs';
+Hooks.once('init',()=>{if(game.system.id!=='sangue-escuro')return;
+ game.settings.register(MODULO,'modoResolucao',{name:'Resolução de ataques',hint:'Assistida: prepara dano após acerto e pede confirmação para aplicar. Automática: aplica o dano dos ataques do Mestre ao alvo original; jogadores continuam dependendo de confirmação. Fluxos especiais preservam os controles da expansão.',scope:'world',config:true,type:String,choices:{manual:'Manual — manter os botões de rolagem',assistido:'Assistida — preparar dano e confirmar aplicação',automatico:'Automática — aplicar ataques do Mestre'},default:'assistido'});
+ for(const [key,name,hint] of [['autoAcoes','Gastar ações automaticamente','Ataques, recarga e destravamento descontam ações em combate. Ataques já gerenciados pelas expansões não são cobrados novamente.'],['autoEfeitos','Aplicar efeitos críticos automaticamente','Aplica os efeitos críticos do sistema ao confirmar o dano.'],['autoContinuos','Dano contínuo no início do turno','Sangramento, Incendiado e penalidades de Atordoamento seguem os controles de turno existentes.']])game.settings.register(MODULO,key,{name,hint,scope:'world',config:true,type:Boolean,default:true});
+});
+Hooks.once('ready',()=>{if(game.system.id!=='sangue-escuro')return;registrarEfeitos();registrarBotoesDano();registrarFluxo();registrarSolicitacoes();});
