@@ -4,10 +4,19 @@ O Sangue Escuro RPG pode ser complementado com módulos de extensão opcionais. 
 
 ### ⚔️ Combate Automatizado
 Focado em automatizar etapas do combate, auxiliar na aplicação das regras e reduzir tarefas repetitivas, dando mais espaço para as decisões dos jogadores e a condução da cena pelo mestre.
-
-```text
+>
+### 📦 Instalação e uso
+1. Na tela inicial do Foundry Virtual Tabletop, acesse Módulos adicionais → Instalar módulo.
+2. Cole o link abaixo no campo URL do manifesto e clique em Instalar:
+```Link 
 https://raw.githubusercontent.com/yobwarz/Dark_Blood_RPG-Combate_Automatizado/main/module.json
 ```
+3. Abra seu mundo **Sangue Escuro** e vá em Configurações → Gerenciar módulos.
+4. Ative **Sangue Escuro: Combate Automatizado** e salve.
+Após o recarregamento, o módulo estará ativo. Confira os requisitos de compatibilidade e as instruções de uso na página de cada módulo.
+
+**Requisitos:** Foundry VTT 13+
+>
 ### Observação
 **O uso dessas extensões é opcional.** Você pode jogar com o sistema base e adicionar os módulos conforme as necessidades da sua mesa.
 >
